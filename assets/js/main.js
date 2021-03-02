@@ -4,11 +4,11 @@ var email = prompt("Scrivi la tua email:");
 
 // Creo una lista di email ammesse
 
-var emailAccettate = ["andrearossi@gmail.com", "francescorossi@gmail.com",
-"valeriorossi@gmail.com", "annarossi@gmail.com"];
+var emailAccettate = ["andrea@gmail.com", "valerio@gmail.com", "giacomo@gmail.com", "maria@gmail.com",]
 
-
+// Controllo che l'email sia ammessa nella lista
 for (var i = 0; i < emailAccettate.length; i++) {
-  emailAccettate[i]
-  console.log(emailAccettate);
+  if (emailAccettate[i] == email) {
+    console.log("L'email è accettata");
+  } 
 }

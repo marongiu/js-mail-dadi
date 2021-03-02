@@ -21,5 +21,5 @@ if (persona > computer) {
   document.getElementById("vincitore").innerHTML = "ABBIAMO UN PAREGGIO!";
 } else {
   console.log("Ha vinto il computer");
-  document.getElementById("vincitore").innerHTML = "HAI VINTO IL COMPUTER!";
+  document.getElementById("vincitore").innerHTML = "HA VINTO IL COMPUTER!";
 }
